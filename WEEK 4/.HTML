@@ -1,0 +1,279 @@
+CodingClub/
+│
+├── index.html
+├── about.html
+├── register.html
+├── contact.html
+└── favicon.png
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Coding Club">
+    <title>Coding Club - Home</title>
+    <link rel="icon" href="favicon.png">
+</head>
+<body>
+
+```
+<header>
+    <h1>Welcome to Coding Club</h1>
+    <p>Learn Coding, Build Projects and Grow Together!</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a> |
+    <a href="register.html">Register</a> |
+    <a href="contact.html">Contact</a>
+</nav>
+
+<hr>
+
+<h2>Upcoming Events</h2>
+
+<table border="1" cellpadding="10">
+    <thead>
+        <tr>
+            <th>Event Name</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Venue</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Web Development Workshop</td>
+            <td>10 November 2026</td>
+            <td>10 AM</td>
+            <td>Computer Lab</td>
+        </tr>
+
+        <tr>
+            <td>Python Coding Competition</td>
+            <td>15 November 2026</td>
+            <td>11 AM</td>
+            <td>Seminar Hall</td>
+        </tr>
+
+        <tr>
+            <td>Hackathon</td>
+            <td>20 November 2026</td>
+            <td>9 AM</td>
+            <td>Auditorium</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="4">Total Events: 3</td>
+        </tr>
+    </tfoot>
+</table>
+
+<h2>Join Our Coding Club!</h2>
+<p>Register today and improve your programming skills.</p>
+
+<a href="register.html">Register Now</a>
+
+<footer>
+    <hr>
+    <p>&copy; 2026 Coding Club. All Rights Reserved.</p>
+</footer>
+```
+
+</body>
+</html>
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About our Coding Club">
+    <title>About - Coding Club</title>
+    <link rel="icon" href="favicon.png">
+</head>
+<body>
+
+```
+<h1>About Coding Club</h1>
+
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a> |
+    <a href="register.html">Register</a> |
+    <a href="contact.html">Contact</a>
+</nav>
+
+<hr>
+
+<h2>Who We Are</h2>
+
+<p>
+    Coding Club is a student community where students
+    learn programming and develop technical skills.
+</p>
+
+<h2>Our Activities</h2>
+
+<ul>
+    <li>Web Development</li>
+    <li>Python Programming</li>
+    <li>Coding Competitions</li>
+    <li>Hackathons</li>
+</ul>
+
+<footer>
+    <hr>
+    <p>&copy; 2026 Coding Club</p>
+</footer>
+```
+
+</body>
+</html>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coding Club Registration Form">
+    <title>Register - Coding Club</title>
+    <link rel="icon" href="favicon.png">
+</head>
+<body>
+
+```
+<h1>Coding Club Registration</h1>
+
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a> |
+    <a href="register.html">Register</a> |
+    <a href="contact.html">Contact</a>
+</nav>
+
+<hr>
+
+<form action="#" method="post">
+
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required>
+    <br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required>
+    <br><br>
+
+    <label for="date">Date of Birth:</label><br>
+    <input type="date" id="date" name="dob">
+    <br><br>
+
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone">
+    <br><br>
+
+    <p>Gender:</p>
+
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label>
+
+    <br><br>
+
+    <p>Choose Your Skills:</p>
+
+    <input type="checkbox" id="html" name="skills" value="HTML">
+    <label for="html">HTML</label>
+
+    <input type="checkbox" id="css" name="skills" value="CSS">
+    <label for="css">CSS</label>
+
+    <input type="checkbox" id="java" name="skills" value="Java">
+    <label for="java">Java</label>
+
+    <br><br>
+
+    <label for="course">Select Course:</label><br>
+
+    <select id="course" name="course">
+        <option value="">Select Course</option>
+        <option value="Web Development">Web Development</option>
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+    </select>
+
+    <br><br>
+
+    <label for="message">Why do you want to join?</label><br>
+
+    <textarea id="message" name="message"
+    rows="5" cols="30"></textarea>
+
+    <br><br>
+
+    <button type="submit">Submit Registration</button>
+
+</form>
+
+<footer>
+    <hr>
+    <p>&copy; 2026 Coding Club</p>
+</footer>
+```
+
+</body>
+</html>
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Coding Club">
+    <title>Contact - Coding Club</title>
+    <link rel="icon" href="favicon.png">
+</head>
+<body>
+
+```
+<h1>Contact Us</h1>
+
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a> |
+    <a href="register.html">Register</a> |
+    <a href="contact.html">Contact</a>
+</nav>
+
+<hr>
+
+<h2>Get In Touch</h2>
+
+<p>Email: codingclub@example.com</p>
+<p>Phone: 9876543210</p>
+<p>Location: Computer Science Department</p>
+
+<h2>Thank You!</h2>
+
+<p>We are happy to help you.</p>
+
+<footer>
+    <hr>
+    <p>&copy; 2026 Coding Club</p>
+</footer>
+```
+
+</body>
+</html>
